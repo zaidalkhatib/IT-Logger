@@ -22,15 +22,13 @@ export default (state = initalState, action) => {
       return {...state, loading: false, logs: action.payload};
     }
     case LOG_ERROR: {
-      console.log(action.payload);
       return {...state, error: action.payload};
     }
     case DELETE_LOGS: {
-      console.log(action.payload);
       return {
         ...state,
         logs: [
-          ...state.logs.filter((log, index) => {
+          ...state.logs.filter((log) => {
             return log.id !== action.payload;
           }),
         ],

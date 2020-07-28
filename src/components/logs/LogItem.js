@@ -2,7 +2,7 @@ import React from "react";
 import Moment from "react-moment";
 import {connect} from "react-redux";
 import {deleteLogs} from "../actions/logActions";
-const LogItem = ({log, index}) => {
+const LogItem = ({log, index, deleteLogs}) => {
   const onClick = () => {
     console.log(log.id);
     deleteLogs(log.id);
@@ -24,7 +24,7 @@ const LogItem = ({log, index}) => {
           <span className="black-text">ID #{log.id}</span> last updated by{" "}
           <span className="black-text">{log.tech}</span>
           {"    "}
-          <Moment format="MMM DO YYY, h:mm:ss a">{log.date}</Moment>
+          <Moment format="MMM D Y, h:mm:ss a">{log.date}</Moment>
         </span>
         <a href="#" onClick={onClick} className="secondary-content">
           <i className="material-icons red-text">delete</i>

@@ -31,7 +31,7 @@ export default (state = initalState, action) => {
         ...state,
         logs: [
           ...state.logs.filter((log, index) => {
-            return index !== action.payload;
+            return log.id !== action.payload;
           }),
         ],
       };

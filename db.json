@@ -1,25 +1,18 @@
 {
   "logs": [
     {
-      "id": 1,
-      "message": "changed hard drive",
+      "message": "added two ports to area 200",
       "attention": false,
-      "date": "03-02-2019",
-      "tech": "john doe"
+      "tech": "Justin",
+      "date": "2020-07-28T02:32:33.160Z",
+      "id": 1
     },
     {
-      "id": 2,
-      "message": "Issue with Port c#122. ",
+      "message": "call for issue in station #C831",
       "attention": true,
-      "date": "03-02-2012",
-      "tech": "Mike Lopez"
-    },
-    {
-      "message": "dsadas",
-      "attention": false,
-      "tech": "Sam Smith",
-      "date": "2020-07-27T19:29:05.047Z",
-      "id": 4
+      "tech": "Justin",
+      "date": "2020-07-28T02:33:09.527Z",
+      "id": 2
     }
   ],
   "techs": [

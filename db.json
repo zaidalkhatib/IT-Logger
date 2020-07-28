@@ -1,0 +1,33 @@
+{
+  "logs": [
+    {
+      "id": 1,
+      "message": "changed hard drive",
+      "attention": false,
+      "date": "03-02-2019",
+      "tech": "john doe"
+    },
+    {
+      "id": 2,
+      "message": "Issue with Port c#122. ",
+      "attention": true,
+      "date": "03-02-2012",
+      "tech": "Mike Lopez"
+    },
+    {
+      "message": "dsadas",
+      "attention": false,
+      "tech": "Sam Smith",
+      "date": "2020-07-27T19:29:05.047Z",
+      "id": 4
+    }
+  ],
+  "techs": [
+    {
+      "name": "john Doe"
+    },
+    {
+      "name": "Justin beiber "
+    }
+  ]
+}

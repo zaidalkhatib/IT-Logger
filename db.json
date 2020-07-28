@@ -1,26 +1,17 @@
 {
-  "logs": [
-    {
-      "message": "added two ports to area 200",
-      "attention": false,
-      "tech": "Justin",
-      "date": "2020-07-28T02:32:33.160Z",
-      "id": 1
-    },
-    {
-      "message": "call for issue in station #C831",
-      "attention": true,
-      "tech": "Justin",
-      "date": "2020-07-28T02:33:09.527Z",
-      "id": 2
-    }
-  ],
-  "techs": [
-    {
-      "name": "john Doe"
-    },
-    {
-      "name": "Justin beiber "
-    }
-  ]
+    "logs": [{
+            "message": "added two ports to area 200",
+            "attention": false,
+            "tech": "Justin",
+            "date": "2020-07-28T02:32:33.160Z",
+            "id": 1
+        },
+        {
+            "message": "call for issue in station #C831",
+            "attention": true,
+            "tech": "Justin",
+            "date": "2020-07-28T02:33:09.527Z",
+            "id": 2
+        }
+    ]
 }
